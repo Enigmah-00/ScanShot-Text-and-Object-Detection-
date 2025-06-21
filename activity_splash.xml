@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/levender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/presenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="e^x presents"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/splashIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/document_scanner_svgrepo_com" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:progressDrawable="@drawable/progress_bar_grey"
+        android:max="100"
+        android:progress="0"
+        />
+
+
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scan everything!"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

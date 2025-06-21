@@ -1,0 +1,15 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#2ecc71</color>
+    <color name="levender">#9EA3f5</color>
+    <color name="primary">#6750A4</color>
+    <color name="secondary">#625B71</color>
+    <color name="background">#F8F8F8</color>
+    <color name="green_start">#27ae60</color> <!-- darker green -->
+    <color name="green_end">#2ecc71</color>   <!-- lighter green -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+</resources>
