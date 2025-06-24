@@ -8,7 +8,7 @@ pluginManagement {
             }
         }
         mavenCentral()
-        gradlePluginPortal()
+        gradlePluginPortal() // Keep this for other plugins, though not strictly needed for Android plugin
     }
 }
 
@@ -17,9 +17,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://jitpack.io") } // Your existing jitpack for uCrop
     }
 }
 
-rootProject.name = "TextOCR"
-include(":app")
+rootProject.name = "com.TextOCR"
+include("app")
